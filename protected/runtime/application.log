@@ -1,0 +1,1862 @@
+2013/12/03 15:21:36 [error] [exception.CException] exception 'CException' with message 'SampleController 无法找到请求的视图 "mcht_detail".' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:878
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('mcht_detail', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/controllers/SampleController.php(21): CController->render('mcht_detail')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): SampleController->actionMchtDetail()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mchtdetail')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mchtdeta...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/qllife/?r=sample/mchtdetail
+---
+2013/12/03 16:49:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "s"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('s')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=s
+---
+2013/12/03 16:49:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sa"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sa')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=sa
+---
+2013/12/03 16:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sam"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sam')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=sam
+---
+2013/12/03 16:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "samp"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('samp')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=samp
+---
+2013/12/03 16:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sampl"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sampl')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=sampl
+---
+2013/12/03 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mc" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mc')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mc')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mc')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mc
+---
+2013/12/03 16:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mche" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mche')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mche')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mche')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mche
+---
+2013/12/03 16:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "m" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('m')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('m')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/m')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/m
+---
+2013/12/03 16:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mcht" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mcht')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mcht')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mcht')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mcht
+---
+2013/12/03 16:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mchtde" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mchtde')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mchtde')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mchtde')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mchtde
+---
+2013/12/03 16:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mchtd" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mchtd')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mchtd')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mchtd')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mchtd
+---
+2013/12/03 16:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mchtdet" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mchtdet')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mchtdet')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mchtdet')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mchtdet
+---
+2013/12/03 16:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mchtdetai" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mchtdetai')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mchtdetai')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('sample/mchtdeta...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=sample/mchtdetai
+---
+2013/12/04 09:58:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "simple"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('simple')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=simple
+---
+2013/12/04 17:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "mcht"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=mcht
+---
+2013/12/04 17:46:20 [error] [exception.CException] exception 'CException' with message '属性 "mchtController.gridId" 未被定义.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CComponent.php:130
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_toolBox.php(31): CComponent->__get('gridId')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): CController->renderPartial('_toolBox')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#18 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/05 13:46:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT `merchant`.*
+FROM `merchant`
+WHERE  1=1 
+ORDER BY `id` DESC LIMIT 20.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Mchtinfo.php (62)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (33)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php (5)
+2013/12/05 13:46:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT `merchant`.*
+FROM `merchant`
+WHERE  1=1 
+ORDER BY `id` DESC LIMIT 20' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Mchtinfo.php(62): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(33): Mchtinfo::queryList(0, 20, NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(43): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/05 15:06:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_category' in 'field list'. The SQL statement executed was: SELECT `merchant`.*, `merchant_category`.`category_name`, `merchant_category`, `category_big_name`
+FROM `merchant`
+LEFT JOIN `merchant_category` ON merchant.merchant_id=merchant_category.merchant_id
+WHERE  1=1 
+ORDER BY `merchant_id` DESC LIMIT 20.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Mchtinfo.php (66)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (24)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php (5)
+2013/12/05 15:06:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_category' in 'field list'. The SQL statement executed was: SELECT `merchant`.*, `merchant_category`.`category_name`, `merchant_category`, `category_big_name`
+FROM `merchant`
+LEFT JOIN `merchant_category` ON merchant.merchant_id=merchant_category.merchant_id
+WHERE  1=1 
+ORDER BY `merchant_id` DESC LIMIT 20' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Mchtinfo.php(66): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Mchtinfo::queryList(0, 20, NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/05 15:26:30 [error] [php] include(Mchtinfo.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): queryList()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): mchtController->renderInternal()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): mchtController->renderFile()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): mchtController->renderPartial()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): mchtController->render()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): mchtController->runAction()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): mchtController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): mchtController->run()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CWebApplication->run()
+REQUEST_URI=/qllife/?r=mcht/mcht
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php (42)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (24)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php (5)
+2013/12/05 16:49:24 [error] [exception.CException] exception 'CException' with message '属性 "Merchant.merchent_name" 未被定义.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CComponent.php:130
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(145): CComponent->__get('merchent_name')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModel.php(596): CActiveRecord->__get('merchent_name')
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/detail.php(10): CModel->offsetGet('merchent_name')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('detail', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CController->render('detail', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('301370158125999')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 00:24:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 09:52:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/06 10:03:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+---
+2013/12/06 10:03:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+---
+2013/12/06 10:05:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+---
+2013/12/06 10:06:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/06 10:06:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/06 10:06:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/06 10:06:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht
+---
+2013/12/06 10:08:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+---
+2013/12/06 10:15:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('100000000000000')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=100000000000000
+---
+2013/12/06 13:51:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/
+---
+2013/12/06 13:51:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 20, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/
+---
+2013/12/06 14:06:50 [error] [php] Object of class CPagination could not be converted to string (/Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/widgets/AjaxLinkPager.php:35)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(11): mchtController->widget()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): mchtController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): mchtController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): mchtController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): mchtController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): mchtController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): mchtController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): mchtController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CWebApplication->run()
+REQUEST_URI=/qllife/?r=mcht/mcht/
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/widgets/AjaxLinkPager.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php (11)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (34)
+2013/12/06 17:51:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_id DESC' in 'order clause'. The SQL statement executed was: SELECT `merchant`.*
+FROM `merchant`
+WHERE  1=1 
+ORDER BY `merchant_id DESC` ASC LIMIT 2 OFFSET 2.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php (65)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (24)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/06 17:51:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_id DESC' in 'order clause'. The SQL statement executed was: SELECT `merchant`.*
+FROM `merchant`
+WHERE  1=1 
+ORDER BY `merchant_id DESC` ASC LIMIT 2 OFFSET 2' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(65): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList('1', 2, NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('grid')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/grid')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/grid&page=1&&q_order=merchant_id%20DESC
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:54:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(42): CActiveRecord->count(' 1=1 ', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(24): Merchant::queryList(0, 2, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): mchtController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(34): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:54:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('111111133333333')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=111111133333333
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:54:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('111111133333333')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=111111133333333
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:55:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('111111133333334')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=111111133333334
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:56:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('111111133333334')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=111111133333334
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/06 17:56:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('111111133333334')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): mchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=111111133333334
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/
+---
+2013/12/07 11:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "coupon/coupon/branch"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=coupon/coupon/branch
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht
+---
+2013/12/07 11:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "mcht" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(270): CController->missingAction('mcht')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('mcht')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/mcht')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/mcht
+HTTP_REFERER=http://localhost/qllife/?r=coupon/coupon/branch
+---
+2013/12/07 13:54:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_id' in 'order clause'. The SQL statement executed was: SELECT `coupon`.*, `branch`.`name`, `branch`.`logourl`
+FROM `coupon`
+LEFT JOIN `branch` ON branch.branch_id=coupon.branch_id
+WHERE  1=1 
+ORDER BY `merchant_id` DESC LIMIT 5.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php (65)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php (24)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php (5)
+2013/12/07 13:54:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant_id' in 'order clause'. The SQL statement executed was: SELECT `coupon`.*, `branch`.`name`, `branch`.`logourl`
+FROM `coupon`
+LEFT JOIN `branch` ON branch.branch_id=coupon.branch_id
+WHERE  1=1 
+ORDER BY `merchant_id` DESC LIMIT 5' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php(65): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(24): Coupon::queryList(0, 5, NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php(5): CouponController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(34): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): CouponController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/l...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=coupon/coupon/list&branch_id=65
+HTTP_REFERER=http://192.168.1.101/qllife/?r=coupon/coupon/branch
+---
+2013/12/07 13:59:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'branch_id' in where clause is ambiguous. The SQL statement executed was: SELECT `coupon`.*, `branch`.`name`, `branch`.`logourl`
+FROM `coupon`
+LEFT JOIN `branch` ON branch.branch_id=coupon.branch_id
+WHERE  1=1  AND branch_id=:branch_id
+ORDER BY `coupon_id` DESC LIMIT 5.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php (69)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php (5)
+2013/12/07 13:59:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'branch_id' in where clause is ambiguous. The SQL statement executed was: SELECT `coupon`.*, `branch`.`name`, `branch`.`logourl`
+FROM `coupon`
+LEFT JOIN `branch` ON branch.branch_id=coupon.branch_id
+WHERE  1=1  AND branch_id=:branch_id
+ORDER BY `coupon_id` DESC LIMIT 5' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php(69): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(25): Coupon::queryList(0, 5, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php(5): CouponController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(35): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): CouponController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/l...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=coupon/coupon/list&q[branch_id]=65
+HTTP_REFERER=http://192.168.1.101/qllife/?r=coupon/coupon/branch
+---
+2013/12/07 14:00:32 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'coupon.branch_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `coupon` `t` WHERE  1=1  AND coupon.branch_id=:branch_id.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php (5)
+2013/12/07 14:00:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'coupon.branch_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `coupon` `t` WHERE  1=1  AND coupon.branch_id=:branch_id' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php(46): CActiveRecord->count(' 1=1  AND coupo...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(25): Coupon::queryList(0, 5, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php(5): CouponController->actionGrid()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(35): CController->render('list')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): CouponController->actionList()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/l...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#18 {main}
+REQUEST_URI=/qllife/?r=coupon/coupon/list&q[branch_id]=65
+HTTP_REFERER=http://192.168.1.101/qllife/?r=coupon/coupon/branch
+---
+2013/12/07 23:31:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(103): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Coupon.php(46): CModule->__get('db')
+#5 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(25): Coupon::queryList(0, 5, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/views/coupon/list.php(5): CouponController->actionGrid()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/CouponController.php(36): CController->render('list')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): CouponController->actionList()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/l...')
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#20 {main}
+REQUEST_URI=/qllife/?r=coupon/coupon/list&q[branch_id]=65
+HTTP_REFERER=http://localhost/qllife/?r=coupon/coupon/branch
+---
+2013/12/09 17:31:48 [error] [exception.CException] exception 'CException' with message '属性 "MchtController.open_id" 未被定义.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CComponent.php:130
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_favoritebar.php(8): CComponent->__get('open_id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/detail.php(1): CController->renderPartial('_favoritebar', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('detail', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(45): CController->render('detail', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): MchtController->actionDetail()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#18 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=155626399920001
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/list
+---
+2013/12/09 17:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "mcht/favoritesmerchant/togglefavorite"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoritesm...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritesmerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 17:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "mcht/favoritesmerchant/togglefavorite"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoritesm...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritesmerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 17:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "mcht/favoritemerchant/togglefavorite"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 17:49:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "r=mcht/favoritemerchant/togglefavorite"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('r=mcht/favorite...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=r=mcht/favoritemerchant/togglefavorite
+---
+2013/12/09 17:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "r=mcht/favoritemerchant"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('r=mcht/favorite...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=r=mcht/favoritemerchant
+---
+2013/12/09 17:49:52 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favorite_merchant.open_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `favorite_merchant` `t` WHERE  1=1  AND favorite_merchant.open_id=:open_id.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/FavoriteMerchant.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/favoritemerchant/list.php (5)
+2013/12/09 17:49:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favorite_merchant.open_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `favorite_merchant` `t` WHERE  1=1  AND favorite_merchant.open_id=:open_id' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/FavoriteMerchant.php(46): CActiveRecord->count(' 1=1  AND favor...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(25): FavoriteMerchant::queryList(0, 5, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/favoritemerchant/list.php(5): FavoritemerchantController->actionGrid()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(35): CController->render('list')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): FavoritemerchantController->actionList()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#18 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant
+---
+2013/12/09 17:50:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/09 17:50:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(47): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): FavoritemerchantController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 17:51:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/09 17:51:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(47): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): FavoritemerchantController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 18:04:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/09 18:04:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-301370158125999' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(47): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): FavoritemerchantController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 18:12:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(44): CActiveRecord->findByPk('301370158125999')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): MchtController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/detai...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/detail&merchant_id=301370158125999
+---
+2013/12/09 18:35:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-155626399920001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/09 18:35:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-155626399920001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `favorite_merchant` (`open_id`, `merchant_id`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/FavoritemerchantController.php(47): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): FavoritemerchantController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/favoriteme...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=mcht/favoritemerchant/togglefavorite
+HTTP_REFERER=http://192.168.21.211/qllife/?r=mcht/mcht/detail&merchant_id=155626399920001
+---
+2013/12/10 17:29:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:29:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:29:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:29:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:30:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:30:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`qllife`.`usr_coupon`, CONSTRAINT `fk_usr_copn1` FOREIGN KEY (`coupon_id`) REFERENCES `coupon` (`coupon_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:44:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:44:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:44:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:44:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:54:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:54:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/10 17:56:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/10 17:56:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yijHIgyjnhasdliJKidfasdJlT4j-27' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_coupon` (`open_id`, `coupon_id`, `issue_type`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/coupon/controllers/UsrcouponController.php(48): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrcouponController->actionTogglefavorite()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('togglefavorite')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupon/togglefavorite
+HTTP_REFERER=http://localhost/qllife/?r=coupon/activities/detail&coupon_id=27
+---
+2013/12/11 16:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard
+---
+2013/12/11 16:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard/list"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard/list
+---
+2013/12/11 16:14:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant.name' in 'field list'. The SQL statement executed was: SELECT `vip_card`.*, `merchant`.`name` AS `merchant_name`
+FROM `vip_card`
+LEFT JOIN `merchant` ON vip_card.merchant_id=merchant.merchant_id
+WHERE  1=1 
+ORDER BY `vip_card`.`dttm` DESC LIMIT 5.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/VipCard.php (86)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php (26)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/vipcard/list.php (2)
+2013/12/11 16:14:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'merchant.name' in 'field list'. The SQL statement executed was: SELECT `vip_card`.*, `merchant`.`name` AS `merchant_name`
+FROM `vip_card`
+LEFT JOIN `merchant` ON vip_card.merchant_id=merchant.merchant_id
+WHERE  1=1 
+ORDER BY `vip_card`.`dttm` DESC LIMIT 5' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/VipCard.php(86): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php(26): VipCard::queryList(0, 5, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/vipcard/list.php(2): VipcardController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php(36): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): VipcardController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard/list
+---
+2013/12/11 16:35:07 [error] [exception.CException] exception 'CException' with message '属性 "VipCard.coupon_id" 未被定义.' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CComponent.php:130
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(145): CComponent->__get('coupon_id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModel.php(596): CActiveRecord->__get('coupon_id')
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/vipcard/detail.php(1): CModel->offsetGet('coupon_id')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('detail', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php(48): CController->render('detail', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): VipcardController->actionDetail()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#16 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard/detail&card_type=4&merchant_id=301370158125999
+HTTP_REFERER=http://localhost/qllife/?r=vipcard/vipcard/list
+---
+2013/12/11 16:41:17 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'merchant_id' in where clause is ambiguous. The SQL statement executed was: SELECT `vip_card`.*, `merchant`.`merchant_name`
+FROM `vip_card`
+LEFT JOIN `merchant` ON vip_card.merchant_id=merchant.merchant_id
+WHERE merchant_id=:merchant_id and card_type=:card_type.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php (55)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/11 16:41:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'merchant_id' in where clause is ambiguous. The SQL statement executed was: SELECT `vip_card`.*, `merchant`.`merchant_name`
+FROM `vip_card`
+LEFT JOIN `merchant` ON vip_card.merchant_id=merchant.merchant_id
+WHERE merchant_id=:merchant_id and card_type=:card_type' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/VipcardController.php(55): CDbCommand->queryRow()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): VipcardController->actionDetail()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('detail')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/qllife/?r=vipcard/vipcard/detail&card_type=3&merchant_id=100000000000000
+HTTP_REFERER=http://localhost/qllife/?r=vipcard/vipcard/list
+---
+2013/12/12 16:45:06 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '24A091CBE22A1C708B3D30F40997F51E' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_bank_card` (`card_id`, `open_id`, `disp_code`, `status`, `bank_name`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/user/controllers/UserController.php (72)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/12 16:45:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '24A091CBE22A1C708B3D30F40997F51E' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `usr_bank_card` (`card_id`, `open_id`, `disp_code`, `status`, `bank_name`, `dttm`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:358
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/user/controllers/UserController.php(72): CActiveRecord->save()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UserController->actionBandcard()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('bandcard')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('user/user/bandc...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/qllife/?r=user/user/bandcard
+HTTP_REFERER=http://localhost/qllife/?r=user/user/bandcard
+---
+2013/12/13 16:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "coupon/usrcoupn/list"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/usrcoupn...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=coupon/usrcoupn/list
+HTTP_REFERER=http://localhost/qllife/?r=mcht/favoritemerchant/list
+---
+2013/12/13 17:58:28 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qllife.vipcard' doesn't exist. The SQL statement executed was: SELECT count(1)
+FROM `usr_vipcard`
+LEFT JOIN `vipcard` ON vipcard.card_type=usr_vipcard.card_type and vipcard.merchant_id=usr_vipcard.merchant_id
+WHERE  1=1  AND usr_vipcard.open_id=:open_id.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/UsrVipCard.php (50)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/usrvipcard/list.php (2)
+2013/12/13 17:58:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qllife.vipcard' doesn't exist. The SQL statement executed was: SELECT count(1)
+FROM `usr_vipcard`
+LEFT JOIN `vipcard` ON vipcard.card_type=usr_vipcard.card_type and vipcard.merchant_id=usr_vipcard.merchant_id
+WHERE  1=1  AND usr_vipcard.open_id=:open_id' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/UsrVipCard.php(50): CDbCommand->queryScalar()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php(25): UsrVipCard::queryList(0, 20, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/usrvipcard/list.php(2): UsrvipcardController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php(35): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrvipcardController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/usrvipc...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=vipcard/usrvipcard/list
+HTTP_REFERER=http://localhost/qllife/?r=coupon/usrcoupon/list
+---
+2013/12/13 17:59:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qllife.vipcard' doesn't exist. The SQL statement executed was: SELECT `usr_vipcard`.`open_id`, `vipcard`.*
+FROM `usr_vipcard`
+LEFT JOIN `vipcard` ON vipcard.card_type=usr_vipcard.card_type and vipcard.merchant_id=usr_vipcard.merchant_id
+WHERE  1=1  AND usr_vipcard.open_id=:open_id
+ORDER BY `usr_vipcard`.`dttm` DESC LIMIT 20.
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/UsrVipCard.php (74)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/usrvipcard/list.php (2)
+2013/12/13 17:59:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qllife.vipcard' doesn't exist. The SQL statement executed was: SELECT `usr_vipcard`.`open_id`, `vipcard`.*
+FROM `usr_vipcard`
+LEFT JOIN `vipcard` ON vipcard.card_type=usr_vipcard.card_type and vipcard.merchant_id=usr_vipcard.merchant_id
+WHERE  1=1  AND usr_vipcard.open_id=:open_id
+ORDER BY `usr_vipcard`.`dttm` DESC LIMIT 20' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/UsrVipCard.php(74): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php(25): UsrVipCard::queryList(0, 20, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/views/usrvipcard/list.php(2): UsrvipcardController->actionGrid()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/vipcard/controllers/UsrvipcardController.php(35): CController->render('list')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UsrvipcardController->actionList()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/usrvipc...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/qllife/?r=vipcard/usrvipcard/list
+HTTP_REFERER=http://localhost/qllife/?r=coupon/usrcoupon/list
+---
+2013/12/16 23:59:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/UsrBankCard.php(42): CActiveRecord->count(' 1=1  AND open_...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/user/controllers/UserController.php(25): UsrBankCard::queryList(0, 5, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/user/views/user/list.php(2): UserController->actionGrid()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/user/controllers/UserController.php(39): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): UserController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('user/user/list')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=user/user/list
+HTTP_REFERER=http://localhost/qllife/?r=mcht/mcht/list
+---
+2013/12/17 16:10:23 [error] [php] include(FileSystem.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php(94): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_list.php(6): getMchtImages()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): MchtController->renderInternal()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): MchtController->renderFile()
+#5 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(27): MchtController->renderPartial()
+#6 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(5): MchtController->actionGrid()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): MchtController->renderInternal()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): MchtController->renderFile()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): MchtController->renderPartial()
+#11 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(35): MchtController->render()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): MchtController->actionList()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): MchtController->runAction()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): MchtController->runActionWithFilters()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): MchtController->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CWebApplication->run()
+REQUEST_URI=/qllife/?r=mcht/mcht/list
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/Merchant.php (94)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_list.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (27)
+2013/12/18 10:30:47 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_toolbox.php:29)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): MchtController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(2): MchtController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): MchtController->renderInternal()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): MchtController->renderFile()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): MchtController->renderPartial()
+#6 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(35): MchtController->render()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): MchtController->actionList()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): MchtController->runAction()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): MchtController->runActionWithFilters()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): MchtController->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CWebApplication->run()
+REQUEST_URI=/qllife/?r=mcht/mcht/list
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_toolbox.php (29)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php (2)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php (35)
+2013/12/19 16:41:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Operation timed out' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CModule.php(103): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/models/DicCategory.php(25): CModule->__get('db')
+#5 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/_toolbox.php(20): DicCategory::getCategory('dic_category_bi...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/views/mcht/list.php(2): CController->renderPartial('_toolbox')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(782): CController->renderPartial('list', NULL, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/modules/mcht/controllers/MchtController.php(35): CController->render('list')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): MchtController->actionList()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): CController->run('list')
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('mcht/mcht/list')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#23 {main}
+REQUEST_URI=/qllife/?r=mcht/mcht/list
+---
+2013/12/20 16:49:17 [error] [php] include(HttpRequest.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/views/robot/menu.php(11): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CBaseController.php(95): RobotController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(869): RobotController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/controllers/RobotController.php(109): RobotController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/actions/CInlineAction.php(49): RobotController->actionMenu()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(286): RobotController->runAction()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CController.php(265): RobotController->runActionWithFilters()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(282): RobotController->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CWebApplication->run()
+REQUEST_URI=/qllife/?r=robot/menu
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/views/robot/menu.php (11)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/controllers/RobotController.php (109)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] -----init------------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] a:0:{}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] a:32:{s:9:"UNIQUE_ID";s:24:"UrUL6sCoAWcAAArRXgEAAAAA";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:119:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:32:"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4";s:11:"HTTP_COOKIE";s:7:"foo=bar";s:4:"PATH";s:65:"/opt/subversion/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin";s:17:"DYLD_LIBRARY_PATH";s:69:"/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:77:"Apache/2.4.4 (Unix) PHP/5.4.16 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:12:"SERVER_ADMIN";s:15:"you@example.com";s:15:"SCRIPT_FILENAME";s:54:"/Applications/XAMPP/xamppfiles/htdocs/qllife/index.php";s:11:"REMOTE_PORT";s:5:"58659";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:8:"/qllife/";s:11:"SCRIPT_NAME";s:17:"/qllife/index.php";s:8:"PHP_SELF";s:17:"/qllife/index.php";s:18:"REQUEST_TIME_FLOAT";d:1387596778.3659999370574951171875;s:12:"REQUEST_TIME";i:1387596778;}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (33)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] session id:
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:32:58 [info] [application] ------end init-------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (36)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] -----init------------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] a:0:{}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] a:33:{s:9:"UNIQUE_ID";s:24:"UrUMJcCoAWcAAA09N2IAAAAJ";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:119:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:32:"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4";s:11:"HTTP_COOKIE";s:45:"foo=bar; PHPSESSID=egq56t28l5cas23bb3o47k4nf0";s:4:"PATH";s:65:"/opt/subversion/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin";s:17:"DYLD_LIBRARY_PATH";s:69:"/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:77:"Apache/2.4.4 (Unix) PHP/5.4.16 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:12:"SERVER_ADMIN";s:15:"you@example.com";s:15:"SCRIPT_FILENAME";s:54:"/Applications/XAMPP/xamppfiles/htdocs/qllife/index.php";s:11:"REMOTE_PORT";s:5:"58669";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:8:"/qllife/";s:11:"SCRIPT_NAME";s:17:"/qllife/index.php";s:8:"PHP_SELF";s:17:"/qllife/index.php";s:18:"REQUEST_TIME_FLOAT";d:1387596837.091000080108642578125;s:12:"REQUEST_TIME";i:1387596837;}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (33)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] session id:
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:33:57 [info] [application] ------end init-------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (36)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] -----init------------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] a:0:{}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] a:33:{s:9:"UNIQUE_ID";s:24:"UrUMLcCoAWcAAA1BZ2UAAAAL";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:119:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:32:"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4";s:11:"HTTP_COOKIE";s:45:"foo=bar; PHPSESSID=egq56t28l5cas23bb3o47k4nf0";s:4:"PATH";s:65:"/opt/subversion/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin";s:17:"DYLD_LIBRARY_PATH";s:69:"/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:77:"Apache/2.4.4 (Unix) PHP/5.4.16 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:37:"/Applications/XAMPP/xamppfiles/htdocs";s:12:"SERVER_ADMIN";s:15:"you@example.com";s:15:"SCRIPT_FILENAME";s:54:"/Applications/XAMPP/xamppfiles/htdocs/qllife/index.php";s:11:"REMOTE_PORT";s:5:"58670";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:8:"/qllife/";s:11:"SCRIPT_NAME";s:17:"/qllife/index.php";s:8:"PHP_SELF";s:17:"/qllife/index.php";s:18:"REQUEST_TIME_FLOAT";d:1387596845.2539999485015869140625;s:12:"REQUEST_TIME";i:1387596845;}
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (33)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] 11111111111111111111111111111111111111111111111111111
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] session id:
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/21 11:34:05 [info] [application] ------end init-------------------------------------
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/protected/components/BaseController.php (36)
+in /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php (20)
+2013/12/23 17:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "voucher/voucher/list"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('voucher/voucher...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=voucher/voucher/list
+HTTP_REFERER=http://localhost/qllife/?r=coupon/usrcoupon/list
+---
+2013/12/23 17:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "voucher/voucher/list"。' in /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('voucher/voucher...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/qllife/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/qllife/?r=voucher/voucher/list
+HTTP_REFERER=http://localhost/qllife/?r=coupon/usrcoupon/list
+---
+2013/12/24 23:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "coupon/coupon/branch"。' in /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/b...')
+#1 /opt/www-data/weblib/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/www-data/root/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=coupon/coupon/branch
+HTTP_REFERER=http://115.29.150.98/?r=sample
+---
+2013/12/24 23:40:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "coupon/coupon/branch"。' in /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('coupon/coupon/b...')
+#1 /opt/www-data/weblib/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/www-data/root/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=coupon/coupon/branch
+HTTP_REFERER=http://115.29.150.98/?r=sample
+---
+2013/12/25 08:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vipcard/vipcard"。' in /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/www-data/weblib/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('vipcard/vipcard')
+#1 /opt/www-data/weblib/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/www-data/root/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=vipcard/vipcard
+HTTP_REFERER=http://115.29.150.98/?r=sample
+---
