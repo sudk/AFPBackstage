@@ -14,9 +14,7 @@
 
         <!-- Bootstrap core CSS -->
         <link href="./css/bootstrap.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <link href="http://v3.bootcss.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
+        <link href="./css/afp.css" rel="stylesheet">
 
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,14 +26,11 @@
         <![endif]-->
     </head>
     <body style="">
-        <div class="container">
-            <?php echo $content;?>
-        </div>
+        <?php echo $content;?>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./js/jquery-1.10.2.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.lazyload.min.js"></script>
-
     </body>
 </html>

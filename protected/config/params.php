@@ -1,20 +1,8 @@
 <?php
 return array(
-    'assets_path'=>"../files",
-    'md5_str'=>'tbowqllife',
-    'token'=>'we_chat_tbow',
-    'Appid'=>'wx647e54155350c785',
-    'AppSecret'=>'c5b974a9154e6abb31b8fe7855997ada',
-    'top_ar'=>array(
-        'coupon'=>'优惠券',
-        'activities'=>'促销活动',
-        'merchant'=>'商户',
-        'vipcard'=>'加入会员',
-        'bandcard'=>'绑定银行卡',
-        'contact'=>'联系我们',
-        'my_favorite'=>'我的收藏',
-        'my_source'=>'我的资产',
-        'my_card'=>'我的会员卡',
-        'my_points'=>'我的积分'
+    'base_path'=>'/Applications/XAMPP/xamppfiles/htdocs/afp/',
+    'news_path'=>array(
+        'asiapacificnews'=>"english/asia/asiapacificnews",
+        'ukfootball'=>'SPORTDIRECT-PHOTO/rss/en/UKFOOTBALL',
     ),
 );

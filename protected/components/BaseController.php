@@ -13,12 +13,6 @@ class BaseController extends CController
 
     public $page_size=20;
 
-    public $openid="";
-    public $nickname="";
-    public $binding_phone="";
-    public $user_name="";
-    public $is_band_card=false;
-    public $points="0";
     /**
      * @var array the breadcrumbs of the current page. The value of this property will
      * be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links}
@@ -28,33 +22,7 @@ class BaseController extends CController
 
     public function init()
     {
-        session_start();
-        $session=Yii::app()->session;
-        $session->open();
-        if($_GET['openid']){
-            $this->openid=$_GET['openid'];
-            $session['openid']=$this->openid;
-            $u=new User();
-            $row=$u->GetUserInfo($this->openid);
-            $session['nickname']=$row['nickname'];
-            $session['binding_phone']=$row['binding_phone'];
-            $session['user_name']=$row['user_name'];
-            $session['is_band_card']=UsrBankCard::IsBandCard($this->openid);
-            $session['points']=$row['points'];
 
-            $this->nickname=$session['nickname'];
-            $this->binding_phone=$session['binding_phone'];
-            $this->user_name=$session['user_name'];
-            $this->is_band_card=$session['is_band_card'];
-            $this->points=$session['points'];
-        }elseif(isset($session['openid'])){
-            $this->openid=$session['openid'];
-            $this->nickname=$session['nickname'];
-            $this->binding_phone=$session['binding_phone'];
-            $this->user_name=$session['user_name'];
-            $this->is_band_card=$session['is_band_card'];
-            $this->points=$session['points'];
-        }
     }
 
     /**

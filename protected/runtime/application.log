@@ -1860,3 +1860,11 @@ Stack trace:
 REQUEST_URI=/?r=vipcard/vipcard
 HTTP_REFERER=http://115.29.150.98/?r=sample
 ---
+2013/12/25 22:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "simple"。' in /Applications/XAMPP/xamppfiles/htdocs/weblib/yii-1.1.14/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/weblib/yii-1.1.14/web/CWebApplication.php(141): CWebApplication->runController('simple')
+#1 /Applications/XAMPP/xamppfiles/htdocs/weblib/yii-1.1.14/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/AFPBackstage/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/AFPBackstage/?r=simple
+---
