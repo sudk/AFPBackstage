@@ -1,0 +1,99 @@
+a:2:{i:0;s:8683:"<?xml version="1.0" encoding="utf-8"?>
+<Fixture>
+  <Series seriesId="339" seriesName="2014 English PL" lastUpdate="2014-02-11T00:14:05Z">
+    <Rounds>
+      <Round roundId="1" maximumRoundId="39">
+        <Matches>
+          <Match matchId="4" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="28" homeTeamName="Liverpool" awayTeamId="778" awayTeamName="Stoke" venueId="14" venueLocation="Liverpool" currentStatus="FT" homeTeamAbbreviation="LIV" awayTeamAbbreviation="STO" hasProgressChart="true" homeTeamScore="1" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Liverpool vs. Stoke</Team>
+            <Venue>Anfield Road</Venue>
+            <StartDateTime>2013-08-17T21:45:00</StartDateTime>
+            <Status>Liverpool 1 df. Stoke 0</Status>
+            <StartDateTimeUTC>2013-08-17T11:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T12:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="1" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="17" homeTeamName="Arsenal" awayTeamId="18" awayTeamName="Aston Villa" venueId="1063" venueLocation="London" currentStatus="FT" homeTeamAbbreviation="ARS" awayTeamAbbreviation="AVL" hasProgressChart="true" homeTeamScore="1" awayTeamScore="3" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Arsenal vs. Aston Villa</Team>
+            <Venue>Emirates Stadium</Venue>
+            <StartDateTime>2013-08-18T00:00:00</StartDateTime>
+            <Status>Aston Villa 3 df. Arsenal 1</Status>
+            <StartDateTimeUTC>2013-08-17T14:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="6" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="48" homeTeamName="Norwich" awayTeamId="24" awayTeamName="Everton" venueId="44" venueLocation="Norwich" currentStatus="FT" homeTeamAbbreviation="NOR" awayTeamAbbreviation="EVE" hasProgressChart="true" homeTeamScore="2" awayTeamScore="2" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Norwich vs. Everton</Team>
+            <Venue>Carrow Road</Venue>
+            <StartDateTime>2013-08-18T00:00:00</StartDateTime>
+            <Status>Norwich 2 dw. Everton 2</Status>
+            <StartDateTimeUTC>2013-08-17T14:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="7" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="34" homeTeamName="Sunderland" awayTeamId="44" awayTeamName="Fulham" venueId="16" venueLocation="Sunderland" currentStatus="FT" homeTeamAbbreviation="SUN" awayTeamAbbreviation="FUL" hasProgressChart="true" homeTeamScore="0" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Sunderland vs. Fulham</Team>
+            <Venue>Stadium of Light</Venue>
+            <StartDateTime>2013-08-18T00:00:00</StartDateTime>
+            <Status>Fulham 1 df. Sunderland 0</Status>
+            <StartDateTimeUTC>2013-08-17T14:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="9" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="58" homeTeamName="West Brom" awayTeamId="33" awayTeamName="Southampton" venueId="54" venueLocation="West Bromwich" currentStatus="FT" homeTeamAbbreviation="WBA" awayTeamAbbreviation="SOT" hasProgressChart="true" homeTeamScore="0" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>West Brom vs. Southampton</Team>
+            <Venue>The Hawthorns</Venue>
+            <StartDateTime>2013-08-18T00:00:00</StartDateTime>
+            <Status>Southampton 1 df. West Brom 0</Status>
+            <StartDateTimeUTC>2013-08-17T14:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="10" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="36" homeTeamName="West Ham" awayTeamId="799" awayTeamName="Cardiff" venueId="32" venueLocation="London" currentStatus="FT" homeTeamAbbreviation="WHM" awayTeamAbbreviation="CAR" hasProgressChart="true" homeTeamScore="2" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>West Ham vs. Cardiff</Team>
+            <Venue>Upton Park</Venue>
+            <StartDateTime>2013-08-18T00:00:00</StartDateTime>
+            <Status>West Ham 2 df. Cardiff 0</Status>
+            <StartDateTimeUTC>2013-08-17T14:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="8" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="796" homeTeamName="Swansea" awayTeamId="30" awayTeamName="Man. Utd" venueId="994" venueLocation="Swansea" currentStatus="FT" homeTeamAbbreviation="SWA" awayTeamAbbreviation="MUN" hasProgressChart="true" homeTeamScore="1" awayTeamScore="4" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Swansea vs. Man. Utd</Team>
+            <Venue>The Liberty Stadium</Venue>
+            <StartDateTime>2013-08-18T02:30:00</StartDateTime>
+            <Status>Man. Utd 4 df. Swansea 1</Status>
+            <StartDateTimeUTC>2013-08-17T16:30:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-17T17:30:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="3" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="43" homeTeamName="Crystal Palace" awayTeamId="35" awayTeamName="Tottenham" venueId="39" venueLocation="London" currentStatus="FT" homeTeamAbbreviation="CRY" awayTeamAbbreviation="TOT" hasProgressChart="true" homeTeamScore="0" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Crystal Palace vs. Tottenham</Team>
+            <Venue>Selhurst Park</Venue>
+            <StartDateTime>2013-08-18T22:30:00</StartDateTime>
+            <Status>Tottenham 1 df. Crystal Palace 0</Status>
+            <StartDateTimeUTC>2013-08-18T12:30:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-18T13:30:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="2" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="21" homeTeamName="Chelsea" awayTeamId="803" awayTeamName="Hull" venueId="22" venueLocation="Chelsea" currentStatus="FT" homeTeamAbbreviation="CHE" awayTeamAbbreviation="HUL" hasProgressChart="true" homeTeamScore="2" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Chelsea vs. Hull</Team>
+            <Venue>Stamford Bridge</Venue>
+            <StartDateTime>2013-08-19T01:00:00</StartDateTime>
+            <Status>Chelsea 2 df. Hull 0</Status>
+            <StartDateTimeUTC>2013-08-18T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-18T16:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="5" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="29" homeTeamName="Man. City" awayTeamId="32" awayTeamName="Newcastle" venueId="536" venueLocation="Manchester" currentStatus="B2" homeTeamAbbreviation="MCI" awayTeamAbbreviation="NEW" hasProgressChart="true" homeTeamScore="4" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Man. City vs. Newcastle</Team>
+            <Venue>Etihad Stadium</Venue>
+            <StartDateTime>2013-08-20T05:00:00</StartDateTime>
+            <Status>Man. City 4 df. Newcastle 0</Status>
+            <StartDateTimeUTC>2013-08-19T19:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-19T20:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="23" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="21" homeTeamName="Chelsea" awayTeamId="18" awayTeamName="Aston Villa" venueId="22" venueLocation="Chelsea" currentStatus="FT" homeTeamAbbreviation="CHE" awayTeamAbbreviation="AVL" hasProgressChart="true" homeTeamScore="2" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Chelsea vs. Aston Villa</Team>
+            <Venue>Stamford Bridge</Venue>
+            <StartDateTime>2013-08-22T04:45:00</StartDateTime>
+            <Status>Chelsea 2 df. Aston Villa 1</Status>
+            <StartDateTimeUTC>2013-08-21T18:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2013-08-21T19:45:00</StartDateTimeLocal>
+          </Match>
+        </Matches>
+      </Round>
+    </Rounds>
+  </Series>
+</Fixture>";i:1;N;}
