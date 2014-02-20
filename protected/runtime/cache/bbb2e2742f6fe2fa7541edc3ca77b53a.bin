@@ -1,0 +1,173 @@
+a:2:{i:0;s:8196:"<?xml version="1.0" encoding="utf-8"?>
+<FormGuide>
+  <Header seriesId="339" roundId="1" matchId="4" homeTeamId="28" awayTeamId="778" homeTeamHasStandings="true" awayTeamHasStandings="true" hasKickOffTime="true">
+    <Series>English PL</Series>
+    <Round>Wk1</Round>
+    <Match>Liverpool vs. Stoke</Match>
+    <Venue>Anfield Road, Liverpool</Venue>
+    <Date>17 Aug 2013, 9:45PM AEST</Date>
+    <Result>Liverpool 1 df. Stoke 0</Result>
+    <HomeTeam>Liverpool</HomeTeam>
+    <AwayTeam>Stoke</AwayTeam>
+    <DateUTCLabel>17 Aug 2013, 11:45AM GMT</DateUTCLabel>
+    <DateUTC>2013-08-17T11:45:00Z</DateUTC>
+  </Header>
+  <Forms>
+    <Team teamId="28">
+      <Form teamType="Home" seriesNo="317" rndNo="40" matchNo="372" hasKickOffTime="true" venueId="14">
+        <Date>20 May 2013</Date>
+        <Status>Win</Status>
+        <Result>Liverpool 1 df. QPR 0</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>19 May 2013, 3:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-19T15:00:00Z</DateUTC>
+        <VenueShortName>Anfield</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Away" seriesNo="317" rndNo="39" matchNo="364" hasKickOffTime="true" venueId="14">
+        <Date>13 May 2013</Date>
+        <Status>Win</Status>
+        <Result>Liverpool 3 df. Fulham 1</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>12 May 2013, 2:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-12T14:00:00Z</DateUTC>
+        <VenueShortName>Craven Cottage</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Home" seriesNo="317" rndNo="38" matchNo="352" hasKickOffTime="true" venueId="14">
+        <Date>05 May 2013</Date>
+        <Status>Draw</Status>
+        <Result>Liverpool 0 dw. Everton 0</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>05 May 2013, 12:30PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-05T12:30:00Z</DateUTC>
+        <VenueShortName>Anfield</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Away" seriesNo="317" rndNo="37" matchNo="346" hasKickOffTime="true" venueId="14">
+        <Date>28 Apr 2013</Date>
+        <Status>Win</Status>
+        <Result>Liverpool 6 df. Newcastle 0</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>27 Apr 2013, 4:30PM GMT</DateUTCLabel>
+        <DateUTC>2013-04-27T16:30:00Z</DateUTC>
+        <VenueShortName>St James' Prk</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Home" seriesNo="317" rndNo="36" matchNo="332" hasKickOffTime="true" venueId="14">
+        <Date>22 Apr 2013</Date>
+        <Status>Draw</Status>
+        <Result>Liverpool 2 dw. Chelsea 2</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>21 Apr 2013, 3:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-04-21T15:00:00Z</DateUTC>
+        <VenueShortName>Anfield</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+    </Team>
+    <Team teamId="778">
+      <Form teamType="Away" seriesNo="317" rndNo="40" matchNo="375" hasKickOffTime="true" venueId="14">
+        <Date>20 May 2013</Date>
+        <Status>Draw</Status>
+        <Result>Southampton 1 dw. Stoke 1</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>19 May 2013, 3:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-19T15:00:00Z</DateUTC>
+        <VenueShortName>St Mary's Std.</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Home" seriesNo="317" rndNo="39" matchNo="369" hasKickOffTime="true" venueId="14">
+        <Date>12 May 2013</Date>
+        <Status>Loss</Status>
+        <Result>Tottenham 2 df. Stoke 1</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>12 May 2013, 12:30PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-12T12:30:00Z</DateUTC>
+        <VenueShortName>Britannia Std.</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Away" seriesNo="317" rndNo="38" matchNo="356" hasKickOffTime="true" venueId="14">
+        <Date>07 May 2013</Date>
+        <Status>Draw</Status>
+        <Result>Sunderland 1 dw. Stoke 1</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>06 May 2013, 7:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-05-06T19:00:00Z</DateUTC>
+        <VenueShortName>Std. of Light</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Home" seriesNo="317" rndNo="37" matchNo="349" hasKickOffTime="true" venueId="14">
+        <Date>28 Apr 2013</Date>
+        <Status>Win</Status>
+        <Result>Stoke 1 df. Norwich 0</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>27 Apr 2013, 2:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-04-27T14:00:00Z</DateUTC>
+        <VenueShortName>Britannia Std.</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+      <Form teamType="Away" seriesNo="317" rndNo="36" matchNo="335" hasKickOffTime="true" venueId="14">
+        <Date>21 Apr 2013</Date>
+        <Status>Win</Status>
+        <Result>Stoke 2 df. QPR 0</Result>
+        <Series>2013 English PL</Series>
+        <DateUTCLabel>20 Apr 2013, 2:00PM GMT</DateUTCLabel>
+        <DateUTC>2013-04-20T14:00:00Z</DateUTC>
+        <VenueShortName>Loftus Rd</VenueShortName>
+        <LeagueShortDesc>English PL</LeagueShortDesc>
+      </Form>
+    </Team>
+  </Forms>
+  <Meetings>
+    <PastMeeting seriesNo="317" rndNo="19" matchNo="189" hasKickOffTime="true" venueId="14" winnerId="778">
+      <Date>27 Dec 2012</Date>
+      <HomeTeam>STO</HomeTeam>
+      <Result>Stoke 3 df. Liverpool 1</Result>
+      <Series>2013 English PL</Series>
+      <DateUTCLabel>26 Dec 2012, 7:45PM GMT</DateUTCLabel>
+      <DateUTC>2012-12-26T19:45:00Z</DateUTC>
+      <VenueShortName>Britannia Std.</VenueShortName>
+      <LeagueShortDesc>English PL</LeagueShortDesc>
+    </PastMeeting>
+    <PastMeeting seriesNo="317" rndNo="8" matchNo="62" hasKickOffTime="true" venueId="14" winnerId="-1">
+      <Date>08 Oct 2012</Date>
+      <HomeTeam>LIV</HomeTeam>
+      <Result>Liverpool 0 dw. Stoke 0</Result>
+      <Series>2013 English PL</Series>
+      <DateUTCLabel>07 Oct 2012, 2:00PM GMT</DateUTCLabel>
+      <DateUTC>2012-10-07T14:00:00Z</DateUTC>
+      <VenueShortName>Anfield</VenueShortName>
+      <LeagueShortDesc>English PL</LeagueShortDesc>
+    </PastMeeting>
+    <PastMeeting seriesNo="296" rndNo="11" matchNo="144" hasKickOffTime="true" venueId="14" winnerId="28">
+      <Date>19 Mar 2012</Date>
+      <HomeTeam>LIV</HomeTeam>
+      <Result>Liverpool 2 df. Stoke 1</Result>
+      <Series>2012 English FA Cup</Series>
+      <DateUTCLabel>18 Mar 2012, 4:00PM GMT</DateUTCLabel>
+      <DateUTC>2012-03-18T16:00:00Z</DateUTC>
+      <VenueShortName>Anfield</VenueShortName>
+      <LeagueShortDesc>FA Cup</LeagueShortDesc>
+    </PastMeeting>
+    <PastMeeting seriesNo="288" rndNo="23" matchNo="204" hasKickOffTime="true" venueId="14" winnerId="-1">
+      <Date>15 Jan 2012</Date>
+      <HomeTeam>LIV</HomeTeam>
+      <Result>Liverpool 0 dw. Stoke 0</Result>
+      <Series>2012 English PL</Series>
+      <DateUTCLabel>14 Jan 2012, 3:00PM GMT</DateUTCLabel>
+      <DateUTC>2012-01-14T15:00:00Z</DateUTC>
+      <VenueShortName>Anfield</VenueShortName>
+      <LeagueShortDesc>English PL</LeagueShortDesc>
+    </PastMeeting>
+    <PastMeeting seriesNo="297" rndNo="5" matchNo="83" hasKickOffTime="true" venueId="14" winnerId="28">
+      <Date>27 Oct 2011</Date>
+      <HomeTeam>STO</HomeTeam>
+      <Result>Liverpool 2 df. Stoke 1</Result>
+      <Series>2012 Eng. League Cup</Series>
+      <DateUTCLabel>26 Oct 2011, 6:45PM GMT</DateUTCLabel>
+      <DateUTC>2011-10-26T18:45:00Z</DateUTC>
+      <VenueShortName>Britannia Std.</VenueShortName>
+      <LeagueShortDesc>League Cup</LeagueShortDesc>
+    </PastMeeting>
+  </Meetings>
+</FormGuide>";i:1;N;}

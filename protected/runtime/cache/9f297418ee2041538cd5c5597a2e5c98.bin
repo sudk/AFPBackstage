@@ -1,0 +1,171 @@
+a:2:{i:0;s:15471:"<?xml version="1.0" encoding="utf-8"?>
+<Fixture>
+  <Series seriesId="339" seriesName="2014 English PL" lastUpdate="2014-02-11T01:18:09Z">
+    <Rounds>
+      <Round roundId="26" maximumRoundId="39">
+        <Matches>
+          <Match matchId="244" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="28" homeTeamName="Liverpool" awayTeamId="17" awayTeamName="Arsenal" venueId="14" venueLocation="Liverpool" currentStatus="FT" homeTeamAbbreviation="LIV" awayTeamAbbreviation="ARS" hasProgressChart="true" homeTeamScore="5" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Liverpool vs. Arsenal</Team>
+            <Venue>Anfield Road</Venue>
+            <StartDateTime>2014-02-08T23:45:00</StartDateTime>
+            <Status>Liverpool 5 df. Arsenal 1</Status>
+            <StartDateTimeUTC>2014-02-08T12:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T12:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="241" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="18" homeTeamName="Aston Villa" awayTeamId="36" awayTeamName="West Ham" venueId="19" venueLocation="Birmingham" currentStatus="FT" homeTeamAbbreviation="AVL" awayTeamAbbreviation="WHM" hasProgressChart="true" homeTeamScore="0" awayTeamScore="2" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Aston Villa vs. West Ham</Team>
+            <Venue>Villa Park</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>West Ham 2 df. Aston Villa 0</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="242" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="21" homeTeamName="Chelsea" awayTeamId="32" awayTeamName="Newcastle" venueId="22" venueLocation="Chelsea" currentStatus="FT" homeTeamAbbreviation="CHE" awayTeamAbbreviation="NEW" hasProgressChart="true" homeTeamScore="3" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Chelsea vs. Newcastle</Team>
+            <Venue>Stamford Bridge</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>Chelsea 3 df. Newcastle 0</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="243" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="43" homeTeamName="Crystal Palace" awayTeamId="58" awayTeamName="West Brom" venueId="39" venueLocation="London" currentStatus="FT" homeTeamAbbreviation="CRY" awayTeamAbbreviation="WBA" hasProgressChart="true" homeTeamScore="3" awayTeamScore="1" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Crystal Palace vs. West Brom</Team>
+            <Venue>Selhurst Park</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>Crystal Palace 3 df. West Brom 1</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="246" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="48" homeTeamName="Norwich" awayTeamId="29" awayTeamName="Man. City" venueId="44" venueLocation="Norwich" currentStatus="FT" homeTeamAbbreviation="NOR" awayTeamAbbreviation="MCI" hasProgressChart="true" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Norwich vs. Man. City</Team>
+            <Venue>Carrow Road</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>Norwich 0 dw. Man. City 0</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="247" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="33" homeTeamName="Southampton" awayTeamId="778" awayTeamName="Stoke" venueId="166" venueLocation="Southampton" currentStatus="FT" homeTeamAbbreviation="SOT" awayTeamAbbreviation="STO" hasProgressChart="true" homeTeamScore="2" awayTeamScore="2" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Southampton vs. Stoke</Team>
+            <Venue>St Mary's Stadium</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>Southampton 2 dw. Stoke 2</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="248" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="34" homeTeamName="Sunderland" awayTeamId="803" awayTeamName="Hull" venueId="16" venueLocation="Sunderland" currentStatus="FT" homeTeamAbbreviation="SUN" awayTeamAbbreviation="HUL" hasProgressChart="true" homeTeamScore="0" awayTeamScore="2" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Sunderland vs. Hull</Team>
+            <Venue>Stadium of Light</Venue>
+            <StartDateTime>2014-02-09T02:00:00</StartDateTime>
+            <Status>Hull 2 df. Sunderland 0</Status>
+            <StartDateTimeUTC>2014-02-08T15:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T15:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="249" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="796" homeTeamName="Swansea" awayTeamId="799" awayTeamName="Cardiff" venueId="994" venueLocation="Swansea" currentStatus="FT" homeTeamAbbreviation="SWA" awayTeamAbbreviation="CAR" hasProgressChart="true" homeTeamScore="3" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Swansea vs. Cardiff</Team>
+            <Venue>The Liberty Stadium</Venue>
+            <StartDateTime>2014-02-09T04:30:00</StartDateTime>
+            <Status>Swansea 3 df. Cardiff 0</Status>
+            <StartDateTimeUTC>2014-02-08T17:30:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-08T17:30:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="250" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="35" homeTeamName="Tottenham" awayTeamId="24" awayTeamName="Everton" venueId="20" venueLocation="London" currentStatus="FT" homeTeamAbbreviation="TOT" awayTeamAbbreviation="EVE" hasProgressChart="true" homeTeamScore="1" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Tottenham vs. Everton</Team>
+            <Venue>White Hart Lane</Venue>
+            <StartDateTime>2014-02-10T00:30:00</StartDateTime>
+            <Status>Tottenham 1 df. Everton 0</Status>
+            <StartDateTimeUTC>2014-02-09T13:30:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-09T13:30:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="245" groupId="0" statusType="F" hasFormGuide="true" homeTeamId="30" homeTeamName="Man. Utd" awayTeamId="44" awayTeamName="Fulham" venueId="13" venueLocation="Manchester" currentStatus="FT" homeTeamAbbreviation="MUN" awayTeamAbbreviation="FUL" hasProgressChart="true" homeTeamScore="2" awayTeamScore="2" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Man. Utd vs. Fulham</Team>
+            <Venue>Old Trafford</Venue>
+            <StartDateTime>2014-02-10T03:00:00</StartDateTime>
+            <Status>Man. Utd 2 dw. Fulham 2</Status>
+            <StartDateTimeUTC>2014-02-09T16:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-09T16:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="252" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="799" homeTeamName="Cardiff" awayTeamId="18" awayTeamName="Aston Villa" venueId="1441" venueLocation="Cardiff" currentStatus="" homeTeamAbbreviation="CAR" awayTeamAbbreviation="AVL" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Cardiff vs. Aston Villa</Team>
+            <Venue>Cardiff City Stadium</Venue>
+            <StartDateTime>2014-02-12T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-11T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-11T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="253" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="803" homeTeamName="Hull" awayTeamId="33" awayTeamName="Southampton" venueId="869" venueLocation="Yorkshire" currentStatus="" homeTeamAbbreviation="HUL" awayTeamAbbreviation="SOT" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Hull vs. Southampton</Team>
+            <Venue>Kingston Communications Stadium</Venue>
+            <StartDateTime>2014-02-12T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-11T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-11T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="256" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="36" homeTeamName="West Ham" awayTeamId="48" awayTeamName="Norwich" venueId="32" venueLocation="London" currentStatus="" homeTeamAbbreviation="WHM" awayTeamAbbreviation="NOR" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>West Ham vs. Norwich</Team>
+            <Venue>Upton Park</Venue>
+            <StartDateTime>2014-02-12T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-11T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-11T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="255" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="58" homeTeamName="West Brom" awayTeamId="21" awayTeamName="Chelsea" venueId="54" venueLocation="West Bromwich" currentStatus="" homeTeamAbbreviation="WBA" awayTeamAbbreviation="CHE" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>West Brom vs. Chelsea</Team>
+            <Venue>The Hawthorns</Venue>
+            <StartDateTime>2014-02-12T07:00:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-11T20:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-11T20:00:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="259" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="29" homeTeamName="Man. City" awayTeamId="34" awayTeamName="Sunderland" venueId="536" venueLocation="Manchester" currentStatus="" homeTeamAbbreviation="MCI" awayTeamAbbreviation="SUN" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Man. City vs. Sunderland</Team>
+            <Venue>Etihad Stadium</Venue>
+            <StartDateTime>2014-02-13T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="260" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="32" homeTeamName="Newcastle" awayTeamId="35" awayTeamName="Tottenham" venueId="17" venueLocation="Tyneside" currentStatus="" homeTeamAbbreviation="NEW" awayTeamAbbreviation="TOT" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Newcastle vs. Tottenham</Team>
+            <Venue>Sports Direct Arena</Venue>
+            <StartDateTime>2014-02-13T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="257" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="24" homeTeamName="Everton" awayTeamId="43" awayTeamName="Crystal Palace" venueId="27" venueLocation="Liverpool" currentStatus="" homeTeamAbbreviation="EVE" awayTeamAbbreviation="CRY" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Everton vs. Crystal Palace</Team>
+            <Venue>Goodison Park</Venue>
+            <StartDateTime>2014-02-13T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="254" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="778" homeTeamName="Stoke" awayTeamId="796" awayTeamName="Swansea" venueId="137" venueLocation="Stoke-on-Trent" currentStatus="" homeTeamAbbreviation="STO" awayTeamAbbreviation="SWA" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Stoke vs. Swansea</Team>
+            <Venue>Britannia Stadium</Venue>
+            <StartDateTime>2014-02-13T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="251" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="17" homeTeamName="Arsenal" awayTeamId="30" awayTeamName="Man. Utd" venueId="1063" venueLocation="London" currentStatus="" homeTeamAbbreviation="ARS" awayTeamAbbreviation="MUN" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Arsenal vs. Man. Utd</Team>
+            <Venue>Emirates Stadium</Venue>
+            <StartDateTime>2014-02-13T06:45:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T19:45:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T19:45:00</StartDateTimeLocal>
+          </Match>
+          <Match matchId="258" groupId="0" statusType="N" hasFormGuide="true" homeTeamId="44" homeTeamName="Fulham" awayTeamId="28" awayTeamName="Liverpool" venueId="40" venueLocation="London" currentStatus="" homeTeamAbbreviation="FUL" awayTeamAbbreviation="LIV" hasProgressChart="false" homeTeamScore="0" awayTeamScore="0" hasKickOffTime="true" hasLocalTime="true" subStatus="">
+            <Team>Fulham vs. Liverpool</Team>
+            <Venue>Craven Cottage</Venue>
+            <StartDateTime>2014-02-13T07:00:00</StartDateTime>
+            <Status>To Be Played</Status>
+            <StartDateTimeUTC>2014-02-12T20:00:00Z</StartDateTimeUTC>
+            <StartDateTimeLocal>2014-02-12T20:00:00</StartDateTimeLocal>
+          </Match>
+        </Matches>
+      </Round>
+    </Rounds>
+  </Series>
+</Fixture>";i:1;N;}

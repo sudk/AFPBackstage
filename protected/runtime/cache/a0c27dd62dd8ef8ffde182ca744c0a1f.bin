@@ -1,0 +1,8 @@
+a:2:{i:0;s:317:"<?xml version="1.0" encoding="utf-8"?>
+<CadabilityServices>
+  <Error>
+    <ID>Err010</ID>
+    <Name>Internal Error</Name>
+    <Message>An internal error has occurred at the server. Please retry later or contact the concerned person at Cadability (Ph: +61 3 9807 8222)</Message>
+  </Error>
+</CadabilityServices>";i:1;N;}

@@ -1,0 +1,191 @@
+a:2:{i:0;s:8036:"<?xml version="1.0" encoding="utf-8"?>
+<FullSeriesList>
+  <SeriesMode Type="Upcoming">
+    <Series seriesId="305" leagueId="50">
+      <Name>2014 World Cup Finals (in Brazil)</Name>
+      <ShortName>2014 World Cup</ShortName>
+      <StartDate>2014-06-12T00:00:00Z</StartDate>
+      <EndDate>2014-07-13T00:00:00Z</EndDate>
+      <Result>Coverage Yet To Commence</Result>
+    </Series>
+    <Series seriesId="360" leagueId="61">
+      <Name>2014 Club Friendlies</Name>
+      <ShortName>2014 Club Friendly</ShortName>
+      <StartDate>2014-08-10T00:00:00Z</StartDate>
+      <EndDate>2014-08-10T00:00:00Z</EndDate>
+      <Result>Coverage Yet To Commence</Result>
+    </Series>
+    <Series seriesId="332" leagueId="83">
+      <Name>2015 AFC Asian Cup (in Australia)</Name>
+      <ShortName>2015 Asian Cup</ShortName>
+      <StartDate>2015-01-04T00:00:00Z</StartDate>
+      <EndDate>2015-01-26T00:00:00Z</EndDate>
+      <Result>Coverage Yet To Commence</Result>
+    </Series>
+  </SeriesMode>
+  <SeriesMode Type="InProgress">
+    <Series seriesId="359" leagueId="86">
+      <Name>2014 AFC Champions League</Name>
+      <ShortName>2014 AFC CL</ShortName>
+      <StartDate>2014-01-29T00:00:00Z</StartDate>
+      <EndDate>2014-11-19T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="361" leagueId="56">
+      <Name>2014 International Friendlies</Name>
+      <ShortName>2014 Int. Friendlies</ShortName>
+      <StartDate>2014-01-01T00:00:00Z</StartDate>
+      <EndDate>2014-12-31T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="353" leagueId="99">
+      <Name>2013/14 Australian W-League</Name>
+      <ShortName>2014 W-League</ShortName>
+      <StartDate>2013-11-09T00:00:00Z</StartDate>
+      <EndDate>2014-02-23T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="357" leagueId="3">
+      <Name>2013/14 English FA Cup</Name>
+      <ShortName>2014 English FA Cup</ShortName>
+      <StartDate>2013-11-08T00:00:00Z</StartDate>
+      <EndDate>2014-05-17T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="337" leagueId="97">
+      <Name>2013/14 Australian A-League</Name>
+      <ShortName>2014 A-League</ShortName>
+      <StartDate>2013-10-11T00:00:00Z</StartDate>
+      <EndDate>2014-05-04T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="354" leagueId="100">
+      <Name>2013/14 Indian I-League</Name>
+      <ShortName>2014 I-League</ShortName>
+      <StartDate>2013-09-21T00:00:00Z</StartDate>
+      <EndDate>2014-05-18T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="345" leagueId="8">
+      <Name>2013/14 Italian Serie A</Name>
+      <ShortName>2014 Italian SA</ShortName>
+      <StartDate>2013-08-24T00:00:00Z</StartDate>
+      <EndDate>2014-05-18T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="339" leagueId="2">
+      <Name>2013/14 English Premier League</Name>
+      <ShortName>2014 English PL</ShortName>
+      <StartDate>2013-08-17T00:00:00Z</StartDate>
+      <EndDate>2014-05-11T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="346" leagueId="7">
+      <Name>2013/14 Spanish La Liga</Name>
+      <ShortName>2014 Spanish L1</ShortName>
+      <StartDate>2013-08-17T00:00:00Z</StartDate>
+      <EndDate>2014-05-18T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="342" leagueId="9">
+      <Name>2013/14 German Bundesliga</Name>
+      <ShortName>2014 German 1B</ShortName>
+      <StartDate>2013-08-09T00:00:00Z</StartDate>
+      <EndDate>2014-05-10T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="344" leagueId="12">
+      <Name>2013/14 French Ligue 1</Name>
+      <ShortName>2014 French L1</ShortName>
+      <StartDate>2013-08-09T00:00:00Z</StartDate>
+      <EndDate>2014-05-17T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="349" leagueId="93">
+      <Name>2013/14 English League Cup</Name>
+      <ShortName>2014 Eng. League Cup</ShortName>
+      <StartDate>2013-08-05T00:00:00Z</StartDate>
+      <EndDate>2014-03-02T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="340" leagueId="5">
+      <Name>2013/14 English League Championship</Name>
+      <ShortName>2014 English FLC</ShortName>
+      <StartDate>2013-08-03T00:00:00Z</StartDate>
+      <EndDate>2014-05-03T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="341" leagueId="6">
+      <Name>2013/14 Scottish Premiership</Name>
+      <ShortName>2014 Scottish P'ship</ShortName>
+      <StartDate>2013-08-03T00:00:00Z</StartDate>
+      <EndDate>2014-05-11T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="352" leagueId="31">
+      <Name>2013/14 Belgian Pro League</Name>
+      <ShortName>2014 Belgian PL</ShortName>
+      <StartDate>2013-07-26T00:00:00Z</StartDate>
+      <EndDate>2014-05-25T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="348" leagueId="90">
+      <Name>2013/14 UEFA Europa League</Name>
+      <ShortName>2014 UEFA EL</ShortName>
+      <StartDate>2013-07-03T00:00:00Z</StartDate>
+      <EndDate>2014-05-14T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="347" leagueId="11">
+      <Name>2013/14 UEFA Champions League</Name>
+      <ShortName>2014 UEFA CL</ShortName>
+      <StartDate>2013-07-02T00:00:00Z</StartDate>
+      <EndDate>2014-05-24T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+    <Series seriesId="331" leagueId="84">
+      <Name>2015 AFC Asian Cup Qualifying</Name>
+      <ShortName>2015 Asian Cup Qual.</ShortName>
+      <StartDate>2013-02-06T00:00:00Z</StartDate>
+      <EndDate>2014-03-05T00:00:00Z</EndDate>
+      <Result>Coverage Has Commenced</Result>
+    </Series>
+  </SeriesMode>
+  <SeriesMode Type="Completed">
+    <Series seriesId="358" leagueId="60">
+      <Name>2013 Club World Cup</Name>
+      <ShortName>2013 Club World Cup</ShortName>
+      <StartDate>2013-12-11T00:00:00Z</StartDate>
+      <EndDate>2013-12-21T00:00:00Z</EndDate>
+      <Result>Bayern Munich won the 2013 Club World Cup </Result>
+    </Series>
+    <Series seriesId="355" leagueId="34">
+      <Name>2014 WCQ Playoff - JOR v URU</Name>
+      <ShortName>2014 WCQ - JOR v URU</ShortName>
+      <StartDate>2013-11-13T00:00:00Z</StartDate>
+      <EndDate>2013-11-20T00:00:00Z</EndDate>
+      <Result>Uruguay qualify after 5-0 aggregate win </Result>
+    </Series>
+    <Series seriesId="356" leagueId="34">
+      <Name>2014 WCQ Playoff - MEX v NZL</Name>
+      <ShortName>2014 WCQ - MEX v NZL</ShortName>
+      <StartDate>2013-11-13T00:00:00Z</StartDate>
+      <EndDate>2013-11-20T00:00:00Z</EndDate>
+      <Result>Mexico qualify after 9-3 aggregate win</Result>
+    </Series>
+    <Series seriesId="336" leagueId="86">
+      <Name>2013 AFC Champions League</Name>
+      <ShortName>2013 AFC CL</ShortName>
+      <StartDate>2013-02-09T00:00:00Z</StartDate>
+      <EndDate>2013-11-09T00:00:00Z</EndDate>
+      <Result>Guangzhou won the 2013 AFC Champions League</Result>
+    </Series>
+    <Series seriesId="343" leagueId="87">
+      <Name>2013 UEFA Super Cup</Name>
+      <ShortName>2013 Super Cup</ShortName>
+      <StartDate>2013-08-30T00:00:00Z</StartDate>
+      <EndDate>2013-08-30T00:00:00Z</EndDate>
+      <Result>Bayern Munich won the 2013 UEFA Super Cup</Result>
+    </Series>
+  </SeriesMode>
+</FullSeriesList>";i:1;N;}

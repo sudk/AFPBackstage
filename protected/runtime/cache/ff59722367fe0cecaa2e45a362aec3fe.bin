@@ -1,0 +1,678 @@
+a:2:{i:0;s:20879:"<?xml version="1.0" encoding="utf-8"?>
+<Sportsflash>
+  <Header clientId="0" localeId="0" seriesId="339" matchId="244">
+    <Client>SportsFlash</Client>
+    <Series>2013/14 English Premier League</Series>
+    <Round>ROUND 26</Round>
+    <Match>MATCH 244</Match>
+    <LastUpdate>2014-02-11T01:39:58Z</LastUpdate>
+    <LastGenerated>2014-02-11T01:39:58Z</LastGenerated>
+  </Header>
+  <Teams>
+    <Team teamId="28" type="Home">
+      <Name>Liverpool FC</Name>
+      <ShortName>LIV</ShortName>
+    </Team>
+    <Team teamId="17" type="Away">
+      <Name>Arsenal FC</Name>
+      <ShortName>ARS</ShortName>
+    </Team>
+  </Teams>
+  <Prediction>
+    <Home>100.0</Home>
+    <Away>0.0</Away>
+    <Draw>0.0</Draw>
+  </Prediction>
+  <Periods>
+    <Period periodId="1">
+      <Events>
+        <Event eventId="0">
+          <Home>47.4</Home>
+          <Away>31.9</Away>
+          <Draw>20.7</Draw>
+          <Description>LIV 0 : 0 ARS</Description>
+        </Event>
+        <Event eventId="1">
+          <Home>47.3</Home>
+          <Away>31.9</Away>
+          <Draw>20.8</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="2">
+          <Home>47.3</Home>
+          <Away>31.9</Away>
+          <Draw>20.8</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+          <Goals>
+            <Goal teamType="Home">
+              <Description>Martin Skrtel (1 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="3">
+          <Home>47.2</Home>
+          <Away>31.9</Away>
+          <Draw>20.9</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="4">
+          <Home>68.1</Home>
+          <Away>15.6</Away>
+          <Draw>16.3</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="5">
+          <Home>68.2</Home>
+          <Away>15.5</Away>
+          <Draw>16.3</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="6">
+          <Home>68.2</Home>
+          <Away>15.4</Away>
+          <Draw>16.4</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="7">
+          <Home>68.2</Home>
+          <Away>15.3</Away>
+          <Draw>16.5</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="8">
+          <Home>68.2</Home>
+          <Away>15.3</Away>
+          <Draw>16.5</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="9">
+          <Home>68.3</Home>
+          <Away>15.2</Away>
+          <Draw>16.5</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="10">
+          <Home>68.3</Home>
+          <Away>15.1</Away>
+          <Draw>16.6</Draw>
+          <Description>LIV 1 : 0 ARS</Description>
+        </Event>
+        <Event eventId="11">
+          <Home>68.3</Home>
+          <Away>14.9</Away>
+          <Draw>16.8</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+          <Goals>
+            <Goal teamType="Home">
+              <Description>Martin Skrtel (10 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="12">
+          <Home>85.2</Home>
+          <Away>5.6</Away>
+          <Draw>9.2</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="13">
+          <Home>85.3</Home>
+          <Away>5.5</Away>
+          <Draw>9.2</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="14">
+          <Home>85.4</Home>
+          <Away>5.4</Away>
+          <Draw>9.2</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="15">
+          <Home>85.5</Home>
+          <Away>5.4</Away>
+          <Draw>9.1</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="16">
+          <Home>85.6</Home>
+          <Away>5.3</Away>
+          <Draw>9.1</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="17">
+          <Home>85.7</Home>
+          <Away>5.2</Away>
+          <Draw>9.1</Draw>
+          <Description>LIV 2 : 0 ARS</Description>
+        </Event>
+        <Event eventId="18">
+          <Home>85.8</Home>
+          <Away>5.1</Away>
+          <Draw>9.1</Draw>
+          <Description>LIV 3 : 0 ARS</Description>
+          <Goals>
+            <Goal teamType="Home">
+              <Description>Raheem Sterling (17 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="19">
+          <Home>95.0</Home>
+          <Away>1.4</Away>
+          <Draw>3.6</Draw>
+          <Description>LIV 3 : 0 ARS</Description>
+        </Event>
+        <Event eventId="20">
+          <Home>95.1</Home>
+          <Away>1.4</Away>
+          <Draw>3.5</Draw>
+          <Description>LIV 3 : 0 ARS</Description>
+        </Event>
+        <Event eventId="21">
+          <Home>95.2</Home>
+          <Away>1.4</Away>
+          <Draw>3.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+          <Goals>
+            <Goal teamType="Home">
+              <Description>Daniel Sturridge (20 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="22">
+          <Home>95.3</Home>
+          <Away>1.3</Away>
+          <Draw>3.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="23">
+          <Home>98.7</Home>
+          <Away>0.3</Away>
+          <Draw>1.0</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="24">
+          <Home>98.8</Home>
+          <Away>0.3</Away>
+          <Draw>0.9</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="25">
+          <Home>98.8</Home>
+          <Away>0.3</Away>
+          <Draw>0.9</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="26">
+          <Home>98.8</Home>
+          <Away>0.3</Away>
+          <Draw>0.9</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="27">
+          <Home>98.9</Home>
+          <Away>0.2</Away>
+          <Draw>0.9</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="28">
+          <Home>98.9</Home>
+          <Away>0.2</Away>
+          <Draw>0.9</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="29">
+          <Home>99.0</Home>
+          <Away>0.2</Away>
+          <Draw>0.8</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="30">
+          <Home>99.0</Home>
+          <Away>0.2</Away>
+          <Draw>0.8</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="31">
+          <Home>99.0</Home>
+          <Away>0.2</Away>
+          <Draw>0.8</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="32">
+          <Home>99.1</Home>
+          <Away>0.2</Away>
+          <Draw>0.7</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="33">
+          <Home>99.1</Home>
+          <Away>0.2</Away>
+          <Draw>0.7</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="34">
+          <Home>99.1</Home>
+          <Away>0.2</Away>
+          <Draw>0.7</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="35">
+          <Home>99.2</Home>
+          <Away>0.2</Away>
+          <Draw>0.6</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="36">
+          <Home>99.2</Home>
+          <Away>0.1</Away>
+          <Draw>0.7</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="37">
+          <Home>99.3</Home>
+          <Away>0.1</Away>
+          <Draw>0.6</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="38">
+          <Home>99.3</Home>
+          <Away>0.1</Away>
+          <Draw>0.6</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="39">
+          <Home>99.3</Home>
+          <Away>0.1</Away>
+          <Draw>0.6</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="40">
+          <Home>99.4</Home>
+          <Away>0.1</Away>
+          <Draw>0.5</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="41">
+          <Home>99.4</Home>
+          <Away>0.1</Away>
+          <Draw>0.5</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="42">
+          <Home>99.4</Home>
+          <Away>0.1</Away>
+          <Draw>0.5</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="43">
+          <Home>99.4</Home>
+          <Away>0.1</Away>
+          <Draw>0.5</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="44">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="45">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="46">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="47">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="48">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="49">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="50">
+          <Home>99.5</Home>
+          <Away>0.1</Away>
+          <Draw>0.4</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+      </Events>
+    </Period>
+    <Period periodId="2">
+      <Events>
+        <Event eventId="1">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="2">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>Yellow Card (Jordan Henderson) LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="3">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>Yellow Card (Olivier Giroud) LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="4">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="5">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="6">
+          <Home>99.6</Home>
+          <Away>0.1</Away>
+          <Draw>0.3</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="7">
+          <Home>99.7</Home>
+          <Away>0.1</Away>
+          <Draw>0.2</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="8">
+          <Home>99.7</Home>
+          <Away>0.1</Away>
+          <Draw>0.2</Draw>
+          <Description>LIV 4 : 0 ARS</Description>
+        </Event>
+        <Event eventId="9">
+          <Home>99.7</Home>
+          <Away>0.1</Away>
+          <Draw>0.2</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+          <Goals>
+            <Goal teamType="Home">
+              <Description>Raheem Sterling (52 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="10">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="11">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="12">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="13">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="14">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="15">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="16">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>Yellow Card (Jack Wilshere) LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="17">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="18">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="19">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="20">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="21">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="22">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="23">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="24">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="25">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 0 ARS</Description>
+        </Event>
+        <Event eventId="26">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+          <Goals>
+            <Goal teamType="Away">
+              <Description>Mikel Arteta Amatriain (69 min)</Description>
+            </Goal>
+          </Goals>
+        </Event>
+        <Event eventId="27">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="28">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="29">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="30">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="31">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="32">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="33">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="34">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="35">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="36">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="37">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="38">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="39">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="40">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="41">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="42">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="43">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="44">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="45">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="46">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="47">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="48">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="49">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="50">
+          <Home>99.9</Home>
+          <Away>0.1</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+        <Event eventId="51">
+          <Home>100.0</Home>
+          <Away>0.0</Away>
+          <Draw>0.0</Draw>
+          <Description>LIV 5 : 1 ARS</Description>
+        </Event>
+      </Events>
+    </Period>
+  </Periods>
+</Sportsflash>";i:1;N;}
