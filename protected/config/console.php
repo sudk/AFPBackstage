@@ -14,14 +14,7 @@ return array(
     ),
     // application components
     'components' => array(
-        'db' => array(
-            'connectionString' => 'mysql:host=127.0.0.1;port=3306; dbname=qllife',
-            'emulatePrepare' => true,
-            'username' => 'mysql',
-            'password' => 'sljjyjs',
-            'charset' => 'utf8',
-        ),
-        'fcache'=>array(
+        'cache'=>array(
             'class'=>'system.caching.CFileCache'
         ),
     ),

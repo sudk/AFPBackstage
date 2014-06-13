@@ -51,7 +51,7 @@ return array(
                 ),
             ),
         ),
-		 'cache'=>array(
+		'cache'=>array(
             'class'=>'system.caching.CFileCache'
             ),
     ),

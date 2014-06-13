@@ -96,10 +96,13 @@ class SiteController extends BaseController {
         header("Content-Type:text/xml");
         $url.=$service;
 
+
         //检查缓存是否存在
         $cache_key=md5($url.$data);
         $tuData=Yii::app()->cache->get($cache_key);
         if($tuData){echo $tuData;exit;}
+
+
 
         $tuCurl = curl_init();
         curl_setopt($tuCurl, CURLOPT_URL,$url);
